@@ -1,0 +1,17 @@
+A, B = map(float, input().split())
+C=(B**2 - A**2)**0.5
+Luas= 0.5*C*A
+Keliling= A+B+C
+print("Alas = %d" %C, "cm")
+print("Tinggi= %d" %A, "cm")
+print("Keliling= %d" %Keliling, "cm")
+print("Luas= %d" %Luas, "cm^2")
+A=int(input())
+B=int(input())
+C=(B**2 - A**2)**0.5
+Luas= 0.5*C*A
+Keliling= A+B+C
+print("Alas = %d" %C, "cm")
+print("Tinggi= %d" %A, "cm")
+print("Keliling= %d" %Keliling, "cm")
+print("Luas= %d" %Luas, "cm^2")

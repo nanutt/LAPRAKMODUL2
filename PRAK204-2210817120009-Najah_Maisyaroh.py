@@ -1,0 +1,15 @@
+r=int(input())
+t=int(input())
+Volume=(t*22*r*r)/7
+Luas=(2*22*r*(r+t))/7
+Keliling=(2*22)*r/7
+print("Volume   = %.2f"%Volume)
+print("Luas     = %.2f"%Luas)
+print("Keliling = %.2f"%Keliling)
+r,t = map(float, input().split())
+Volume=(t*22*r*r)/7
+Luas=(2*22*r*(r+t))/7
+Keliling=(2*22)*r/7
+print("Volume   = %.2f"%Volume)
+print("Luas     = %.2f"%Luas)
+print("Keliling = %.2f"%Keliling)
